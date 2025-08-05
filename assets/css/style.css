@@ -1,0 +1,78 @@
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #000;
+  --secondary-color: #464242;
+  --text-color: #000;
+  --border-color: #cfc8c8;
+}
+.body {
+  color: var(--text-color);
+  line-height: 1.6;
+}
+/* Header */
+.header {
+  background: #fff;
+  border-bottom: 1px solid var(--border-color);
+}
+.header-top {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.icons i {
+  font-size: 20px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.icons i:hover {
+  color: var(--secondary-color);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.contact-button {
+  background: var(--primary-color) !important;
+  color: #fff;
+}
+.contact-button:hover {
+  background: var(--secondary-color) !important;
+  color: #fff;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--text-color);
+  letter-spacing: 0.6px;
+  padding: 15px;
+}
+.item {
+  margin: 14px 0;
+}
+.slider {
+  height: 60vh;
+}
+.carousel-item {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
