@@ -1,4 +1,4 @@
-function toogleMobileMenu(){
+function toggleMobileMenu(){
     const sidebar = document.getElementById('mobileSidebar');
     const overlay = document.querySelector('.mobile-overlay');
     
