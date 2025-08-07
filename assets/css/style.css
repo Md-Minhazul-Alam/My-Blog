@@ -96,8 +96,8 @@
 .mobile-sidebar {
   position: fixed;
   top: 0;
-  left: -300px;
-  width: 400px;
+  left: -350px;
+  width: 350px;
   height: 100vh;
   background: #fff;
   transition: left 0.3s ease;
