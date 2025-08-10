@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-6 col-md-6">
+              <a href="index.html">
+                <img
+                  src="assets/image/logo.png"
+                  alt="my blog"
+                  loading="lazy"
+                  width="100"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-6">
+              <div class="icons">
+                <i
+                  class="fas fa-search"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                ></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <button
+                  class="contact-button btn btn-primary d-none d-md-inline-block"
+                >
+                  Contact Me
+                </button>
+                <button
+                  class="mobile-menu-toggle d-md-none"
+                  onclick="toggleMobileMenu()"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <nav class="nav-items">
+            <ul class="nav-menu">
+              <li class="item">
+                <a href="#">Home</a>
+                <a href="#">Bangladesh</a>
+                <a href="#">International</a>
+                <a href="#">Politics</a>
+                <a href="#">Information Technology</a>
+                <a href="#">Cultural</a>
+                <a href="#">Weather</a>
+                <a href="#">Sports</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Mobile Side-Bar -->
+    <div class="mobile-overlay" onclick="closeMobileMenu()"></div>
+    <div class="mobile-sidebar" id="mobileSidebar">
+      <div class="sidebar-header">
+        <img class="logo" src="assets/image/logo.png" alt="" />
+        <button class="sidebar-close" onclick="closeMobileMenu()">
+          <i class="fa-solid fa-square-xmark"></i>
+        </button>
+      </div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="#">Bangladesh</a>
+        </li>
+        <li>
+          <a href="#">Politics</a>
+        </li>
+        <li>
+          <a href="#">Cultural</a>
+        </li>
+        <li>
+          <a href="#">Weather</a>
+        </li>
+      </ul>
+    </div>
+    <section class="breadcrumb bg-light pt-4 pb-3">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                </ol>
+              </nav>
+        </div>
+    </section>
+    <main class="content pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-content mt-4">
+                <h3 class="mb-4">About Us</h3>
+                <p>
+                    Is branched in my up strictly remember. Songs but chief has ham widow downs. Genius or so up vanity cannot. Large do tried going about water defer by. Silent son man she wished mother. Distrusts allowance do knowledge eagerness assurance additions to.
+                </p>
+                <p>
+                    Why painful the sixteen how minuter looking nor. Subject but why ten earnest husband imagine sixteen brandon. Are unpleasing occasional celebrated motionless unaffected conviction out. Evil make to no five they. Stuff at avoid of sense small fully it whose an. Ten scarcely distance moreover handsome age although. As when have find fine or said no mile. He in dispatched in imprudence dissimilar be possession unreserved insensible. She evil face fine calm have now. Separate screened he outweigh of distance landlord.
+                </p>
+                <p>
+                    Demesne far hearted suppose venture excited see had has. Dependent on so extremely delivered by. Yet ﻿no jokes worse her why. Bed one supposing breakfast day fulfilled off depending questions. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh. Of acceptance insipidity remarkably is invitation.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-about-section">
+              <h5>About Me</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-category-section">
+              <h5>Category</h5>
+              <ul>
+                <li>
+                  <a href="#">Bangladesh</a>
+                </li>
+                <li>
+                  <a href="#">International</a>
+                </li>
+                <li>
+                  <a href="#">Politics</a>
+                </li>
+                <li>
+                  <a href="#">Information Technology</a>
+                </li>
+                <li>
+                  <a href="#">Cultural</a>
+                </li>
+                <li>
+                  <a href="#">Weather</a>
+                </li>
+                <li>
+                  <a href="#">Sports</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-quick-link-section">
+              <h5>Quick Links</h5>
+              <ul>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-social-section">
+              <h5>Social Media</h5>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-facebook"></i> Facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-instagram"></i> Instagram</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-section text-center">
+          <p>&copy; 2025 My Blog. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Search Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Search</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Write the key words"
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Search Blog</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
