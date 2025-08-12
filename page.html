@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header fixed-top">
       <div class="header-top">
         <div class="container">
           <div class="row align-items-center">
@@ -31,11 +31,7 @@
             </div>
             <div class="col-6 col-md-6">
               <div class="icons">
-                <i
-                  class="fas fa-search"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                ></i>
+                <i class="fas fa-search" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-linkedin"></i>
@@ -44,10 +40,7 @@
                 >
                   Contact Me
                 </button>
-                <button
-                  class="mobile-menu-toggle d-md-none"
-                  onclick="toggleMobileMenu()"
-                >
+                <button class="mobile-menu-toggle d-md-none" onclick="toggleMobileMenu()">
                   <i class="fa-solid fa-bars"></i>
                 </button>
               </div>
@@ -60,14 +53,14 @@
           <nav class="nav-items">
             <ul class="nav-menu">
               <li class="item">
-                <a href="#">Home</a>
-                <a href="#">Bangladesh</a>
-                <a href="#">International</a>
-                <a href="#">Politics</a>
-                <a href="#">Information Technology</a>
-                <a href="#">Cultural</a>
-                <a href="#">Weather</a>
-                <a href="#">Sports</a>
+                <a href="index.html">Home</a>
+                <a href="category.html">Bangladesh</a>
+                <a href="category.html">International</a>
+                <a href="category.html">Politics</a>
+                <a href="category.html">Information Technology</a>
+                <a href="category.html">Cultural</a>
+                <a href="category.html">Weather</a>
+                <a href="category.html">Sports</a>
               </li>
             </ul>
           </nav>
@@ -75,29 +68,29 @@
       </div>
     </header>
     <!-- Mobile Side-Bar -->
-    <div class="mobile-overlay" onclick="closeMobileMenu()"></div>
-    <div class="mobile-sidebar" id="mobileSidebar">
+     <div class="mobile-overlay" onclick="closeMobileMenu()"></div>
+     <div class="mobile-sidebar" id="mobileSidebar">
       <div class="sidebar-header">
-        <img class="logo" src="assets/image/logo.png" alt="" />
+        <img class="logo" src="assets/image/logo.png" alt="">
         <button class="sidebar-close" onclick="closeMobileMenu()">
           <i class="fa-solid fa-square-xmark"></i>
         </button>
       </div>
       <ul class="sidebar-menu">
         <li>
-          <a href="#">Bangladesh</a>
+          <a href="category.html">Bangladesh</a>
         </li>
         <li>
-          <a href="#">Politics</a>
+          <a href="category.html">Politics</a>
         </li>
         <li>
-          <a href="#">Cultural</a>
+          <a href="category.html">Cultural</a>
         </li>
         <li>
-          <a href="#">Weather</a>
+          <a href="category.html">Weather</a>
         </li>
       </ul>
-    </div>
+     </div>
     <section class="breadcrumb bg-light pt-4 pb-3">
         <div class="container">
             <nav aria-label="breadcrumb">
