@@ -67,8 +67,10 @@
 .item {
   margin: 14px 0;
 }
+/* Slider */
 .slider {
   height: 60vh;
+  margin-top: 140px;
 }
 .carousel-item {
   height: 60vh;
