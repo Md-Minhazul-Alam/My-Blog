@@ -158,7 +158,7 @@
 }
 /* Breadcrumb */
 .breadcrumb{
-  margin-top: 35px;
+  margin-top: 70px;
 }
 /* Main Content */
 .content {
@@ -266,7 +266,7 @@
     margin-top: 80px;
   }
   .breadcrumb{
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 @media (min-width: 769px) {
